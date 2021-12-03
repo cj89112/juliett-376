@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - juliett-376</title>
+  <link rel="stylesheet" href="style/juliett.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+
+</head>
+<body>
+
+<!-- Courtney Pride -->
+  
+  <nav class="navbar bg-dark navbar-dark navbar-expand-sm sticky-top">
+        <p class="navbar-brand ps-3"></p>
+        <ul class="navbar-nav">
+            <li class="navitem"><a class="nav-link" href="https://www.w3schools.com/bootstrap5/bootstrap_forms.php" target="_blank">BS5 Forms @ W3C-School</a> </li>
+            <li class="navitem"><a class="nav-link" href="https://codepen.io/barrycumbie/pen/abyVxmV" target="_blank">See the CodePen version</a> </li>
+            <li class="navitem"><button id="btnLoadData" class="btn btn-secondary">load json</button></li>
+        </ul>
+
+    </nav>
+
+    <div class="container-fluid">
+
+        <div id="dataContainer">
+            <input id="firstName">
+            <input id="lastName">
+            <input id="age">
+            <input id="zipCode">
+        </div>
+
+        <div class="row p-1.5 m-1.5">
+          <div class="col-md-5 card">
+      
+      <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="check1" name="option1" value="html">
+          <label class="form-check-label" for="check1">html</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="check2" name="option2" value="javascript">
+          <label class="form-check-label" for="check2">javascript</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" value="python">
+          <label class="form-check-label">python</label>
+        </div>
+        </div>
+
+
+<header class="container-fluid row">
+  <div class="col-md-6 offset-md-3">
+    
+    <div class="p-2 text-center bg-light">
+      <h1 class="mb-3">Southern Rugby Conference</h1>
+      <h4 class="mb-3">__________________________________________________________</h4>
+    </div>
+    
+  </div>
+</header>
+<div class="container-fluid row">
+  <div class="col-md-6 offset-md-3">
+    <div class="card">
+      PRESETS
+    </div>
+    <div class="card">
+      <!-- Nav tabs -->
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="tab" href="#home">teams</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#menu1">how many</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#menu2">vehicle</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#menu3">vehicle type</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#menu4">profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#menu5">user/pwd</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#menu6">birthday</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#menu7">dates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#menu8">qty</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#menu9">eyeballs</a>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane container active" id="home">
+          <h4>Pick your team</h4>
+          <div class="form-box">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Furman University</label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">University of North Carolina</label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Wake Forest University</label>
+            <br />
+            <label class="form-check-label" for="flexRadioDefault1">other</label>
+            <input type="text" placeholder="other">
+          </div>
+
+        </div>
+
+        <div class="tab-pane container fade" id="menu1">
+          <form>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">2 rooms</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">4 rooms</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">6 rooms</label>
+          </form>
+        </div>
+
+        <div class="tab-pane container fade" id="menu2">
+
+          <form>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bus</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a van</label>
+          </form>
+        </div>
+
+        <div class="tab-pane container fade" id="menu3">
+          <label for="cars">Choose a car:</label>
+          <select id="cars" name="cars">
+            <option value="volvo">Nissan</option>
+            <option value="saab">Chevy</option>
+            <option value="fiat">Ford</option>
+            <option value="audi">Honda</option>
+          </select>
+        </div>
+
+        <div class="tab-pane container fade" id="menu4">Profile
+          <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+          </form>
+        </div>
+
+        <div class="tab-pane container fade" id="menu5">
+          
+          <h6>Required</h6>
+           
+          <form>
+            <label for="noSpaces" class="form-label"        for="username">Username:</label>
+            <input id="noSpaces" class="form-control" type="text" 
+              placeholder="Enter username (no spaces)" name="noSpaces">
+
+            <br>
+            <label for="pwd">Password:</label>
+            <br>
+            <input type="password" class="form-control" id="pwd" name="pwd">
+            
+            <br>
+            
+            <em class="far fa-eye" id="togglePassword" style="margin-left: -3px; cursor: pointer;"></em>
+            <button type="submit" class="btn btn-primary">Login</button>
+            
+          </form>
+        </div>
+
+        <div class="tab-pane container fade" id="menu6">
+
+          <form>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+          </form>
+        </div>
+
+        <div class="tab-pane container fade" id="menu7">
+          <form>
+            <label for="datemax">Enter a date before 2001-01-01:</label>
+            <input type="date" id="datemax" name="datemax" max="2001-12-31"><br><br>
+            <label for="datemin">Enter a date after 2001-01-01:</label>
+            <input type="date" id="datemin" name="datemin" min="2001-01-02">
+          </form>
+        </div>
+
+        <div class="tab-pane container fade" id="menu8">
+
+          <form>
+            <label for="quantity">Quantity (between 1 and 5):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5">
+          </form>
+
+        </div>
+
+        <div class="tab-pane container fade" id="menu9">
+          <h6>Required</h6>
+          <form method="post">
+            Username
+            <input d="noSpaces" type="text" class="form-control" name="username" autofocus="" autocapitalize="none" autocomplete="username" required="" id="id_username" placeholder="Enter username (no spaces)" name="noSpaces"> 
+            
+            <br>
+            
+            Password
+            <input type="password" class="form-control" name="password" autocomplete="current-password" required="" id="id_password">
+            <br>
+            <em class="far fa-eye" id="togglePassword" style="margin-left: -3px; cursor: pointer;"></em>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div> 
+<footer class="container-fluid row">
+    <div class="col-md-6 offset-md-3">
+
+      <div class="p-2 text-center bg-light">
+        <h1 class="mb-3">Southern Rugby Conference</h1>
+      </div>
+
+    </div>
+    
+  </footer>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+      
+      <script src="scripts/juliett.js"></script>
+
+
+</body>
+</html>
